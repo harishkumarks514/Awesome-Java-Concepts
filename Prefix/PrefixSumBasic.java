@@ -14,8 +14,9 @@ public class PrefixSumBasic {
 		}
 //		sum from index 1 to 3
 		int l =1, r=3;
-		int sum = prefix[r] -(1>0 ? prefix[l-1] : 0);
+		int sum = prefix[r] -(l>0 ? prefix[l-1] : 0);
 		
 		System.out.println("Range sum (1 o 3 ):  " + sum);
 	}
 }
+
