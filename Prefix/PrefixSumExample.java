@@ -2,6 +2,7 @@ package Prefix;
 
 public class PrefixSumExample {
 // Print array
+	// This works with negative numbers.
 	public static void main(String[] args) {
 		
 		int[] arr = {2,4,6,8,10,5};
@@ -24,3 +25,4 @@ public class PrefixSumExample {
 		}
 	}
 }
+
