@@ -1,3 +1,5 @@
+//Sliding Window (Optimized for Binary Array)
+// If interviewer says “binary array” → go with Sliding Window (impresses them 🔥)
 package LeetCode;
 
 public class BinarySubarraysWithSumSliding {
